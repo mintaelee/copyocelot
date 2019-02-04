@@ -1,17 +1,19 @@
+body{
+    font-family: Roboto, Arial, sans-serif;
+    overflow: hidden;
+}
 #main_container{
     display: grid;
-    grid-template: 10% 90% / 100%;
+    grid-template: 40px 90% / 100%;
 
 }
 #content_container{
     display: flex;
-
 }
 
 #nav_bar{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 15%;
 }
 .nav_content{
@@ -19,12 +21,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 40px;
 }
 
 #content_box{
     display: flex;
     flex-direction: column;
+    overflow scroll;
 }
 
 .video_container{
@@ -34,6 +37,8 @@
 .video_box{
     display: flex;
     flex-direction: column;
+    width: 210px;
+    padding: 10px;
 }
 
 .video_detail{
