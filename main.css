@@ -3,3 +3,13 @@
     grid-template: 10% 90% / 100%;
 
 }
+#content_container{
+    display: flex;
+
+}
+
+#nav_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
