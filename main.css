@@ -21,3 +21,21 @@
     width: 100%;
     height: 50px;
 }
+
+#content_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.video_container{
+    display: flex;
+}
+
+.video_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.video_detail{
+    display: flex;
+}
